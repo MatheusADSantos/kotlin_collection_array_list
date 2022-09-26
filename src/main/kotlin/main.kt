@@ -2,5 +2,6 @@ fun main() {
 //    percorrendo_arrays()
 //    forEachIndexed()
 //    ranges()
-    metodosDeIntervalos()
+//    metodosDeIntervalos()
+    salariosComBigDecimal()
 }
