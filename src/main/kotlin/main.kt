@@ -1,5 +1,6 @@
 fun main() {
 //    percorrendo_arrays()
 //    forEachIndexed()
-    ranges()
+//    ranges()
+    metodosDeIntervalos()
 }
