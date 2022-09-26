@@ -1,4 +1,5 @@
 fun main() {
 //    percorrendo_arrays()
-    forEachIndexed()
+//    forEachIndexed()
+    ranges()
 }
