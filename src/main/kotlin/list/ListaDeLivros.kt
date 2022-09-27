@@ -40,6 +40,9 @@ fun main() {
 
     livros.imprimiListaComMarcadores()
 
+    livros.sorted() // Pra conseguirmos chamar o sorted() precisou implementar a int. Comparable<T>
+    livros.imprimiListaComMarcadores()
+
 }
 
 fun MutableList<Livro>.imprimiListaComMarcadores() {
