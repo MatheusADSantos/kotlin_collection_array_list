@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d38f8c9b-1b68-48e3-bdec-a5338c5dde91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/salariosComBigDecimal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/salariosComBigDecimal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncoesBigDecimal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/FuncoesBigDecimal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/forEachIndexed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/forEachIndexed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/metodosDeIntervalos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/metodosDeIntervalos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/percorrendo_arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/percorrendo_arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ranges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/ranges.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/salariosComBigDecimal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/salariosComBigDecimal.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -24,12 +30,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10-sources.jar!/generated/_Arrays.kt" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/forEachIndexed.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/main.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/metodosDeIntervalos.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/percorrendo_arrays.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/ranges.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/salariosComBigDecimal.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/array/forEachIndexed.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/array/metodosDeIntervalos.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/array/percorrendo_arrays.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/array/ranges.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/array/salariosComBigDecimal.kt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
