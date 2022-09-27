@@ -43,6 +43,10 @@ fun main() {
     livros.sorted() // Pra conseguirmos chamar o sorted() precisou implementar a int. Comparable<T>
     livros.imprimiListaComMarcadores()
 
+    livros.sortedBy { it.anoPublicacao }
+
+    val titulos = livros.titulosPorAnoPublicacaoDoAutor("J")
+    println(titulos)
 }
 
 fun MutableList<Livro>.imprimiListaComMarcadores() {
@@ -50,4 +54,11 @@ fun MutableList<Livro>.imprimiListaComMarcadores() {
         "-> ${it.titulo} de ${it.autor}"
     }
     println("\n ### Lista de Livros ### \n${listaComMarcadores}")
+}
+
+fun MutableList<Livro>.titulosPorAnoPublicacaoDoAutor(prefixoAutor: String): List<String> {
+    return this
+        .filter { it.autor.startsWith(prefixoAutor) }
+        .sortedBy { it.anoPublicacao }
+        .map { it.titulo }
 }
