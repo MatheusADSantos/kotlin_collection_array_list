@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38f8c9b-1b68-48e3-bdec-a5338c5dde91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncoesBigDecimal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/FuncoesBigDecimal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/forEachIndexed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/forEachIndexed.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/metodosDeIntervalos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/metodosDeIntervalos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/percorrendo_arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/percorrendo_arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ranges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/ranges.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/salariosComBigDecimal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/salariosComBigDecimal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/list/ListaDeLivros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/list/ListaDeLivros.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
