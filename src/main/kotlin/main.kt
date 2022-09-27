@@ -4,4 +4,5 @@ fun main() {
 //    ranges()
 //    metodosDeIntervalos()
     salariosComBigDecimal()
+
 }
