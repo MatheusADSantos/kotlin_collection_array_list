@@ -13,6 +13,18 @@ fun salariosComBigDecimal() {
     val somatoriaDosSalariosComAumento = salarioComAumento.somatoria()
     println("Salários somados após os aumentos: $somatoriaDosSalariosComAumento")
 
+    val meses = 6.toBigDecimal()
+    val gastosTotal = salarioComAumento.fold(somatoriaDosSalariosComAumento) { acc, salario ->
+        println("\n\nsalarioComAumento: ${salarioComAumento.contentToString()}")
+        println("somatoriaDosSalariosComAumento: $somatoriaDosSalariosComAumento")
+        println("acc: $acc")
+        println("salario: $salario")
+        println()
+
+        acc + (salario * meses).setScale(2, RoundingMode.UP)
+    }
+    println(gastosTotal)
+
 }
 
 private fun calculaAumentoRelativo(salario: BigDecimal, aumento: BigDecimal): BigDecimal =
