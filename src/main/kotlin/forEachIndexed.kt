@@ -29,5 +29,4 @@ fun forEachIndexed() {
     val contatos = arrayOf("", "")
     val contatos2: Array<String> = Array<String>(3) {""}
 
-//    https://www.alura.com.br/artigos/arredondamento-no-java-do-double-ao-bigdecimal
 }
