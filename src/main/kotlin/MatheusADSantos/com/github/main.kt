@@ -3,20 +3,24 @@ package MatheusADSantos.com.github
 fun main() {
     // Criando uma instância do banco
     val banco = BancoDeNomes()
+    // Criando uma cópia da instância
+    val nomesSalvos: Collection<String> = banco.nomes
 
     // Salvando um nome e printando
     println(banco.nomes)
+    println(nomesSalvos)
     banco.salva("Matheus")
     println(banco.nomes)
-    println("Aqui garanto que ambas as instancias estão pegando do mesmo banco: ${ banco.nomes == BancoDeNomes().nomes }")
+    println(nomesSalvos)
+    println(banco.nomes != nomesSalvos)
 
 }
 
 class BancoDeNomes {
 
-    // Coleção(nomes) imutável publica, recebendo uma shadow copy(cópia básica),
-    // ou seja, apontando para a mesma referência
-    val nomes: Collection<String> get() = dados
+    // Ao usar toList(), estou criando uma cópia 'real' de dados(MutableList) -> nomes(Collection/Imutável),
+    // impedindo assim que consiga alterar os valores da lista mutável dados, através de um cast por ex...
+    val nomes: Collection<String> get() = dados.toList()
 
     fun salva(nome: String) {
         dados.add(nome)
