@@ -9,6 +9,16 @@ fun MutableList<Livro?>.imprimiListaComMarcadores() {
     println("\n ### Lista de Livros ### \n${listaComMarcadores}")
 }
 
+@JvmName("imprimiListaComMarcadoresLivro")
+fun MutableList<Livro>.imprimiListaComMarcadores() {
+    val listaComMarcadores: String = this
+        .joinToString(separator = "\n") {
+            "-> ${it.titulo} de ${it.autor}"
+        }
+    println("\n ### Lista de Livros ### \n${listaComMarcadores}")
+}
+
+
 fun MutableList<Livro>.titulosPorAnoPublicacaoDoAutor(prefixoAutor: String): List<String> {
     return this
         .filter { it.autor.startsWith(prefixoAutor) }
