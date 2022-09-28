@@ -24,7 +24,7 @@ val livro4 = Livro(
 )
 
 // Criando uma lista do tipo MutableList<Livro>
-val livros: MutableList<Livro?> = mutableListOf(livro1, livro2, livro3, livro4)
+val livros: MutableList<Livro> = mutableListOf(livro1, livro2, livro3, livro4)
 
 // Criando uma lista do tipo MutableList<Livro?> por ser do tipo <Livro?> pode receber null...
 val livrosComNulos: MutableList<Livro?> = mutableListOf(livro1, null,  livro2, null, livro3, livro4, null)
