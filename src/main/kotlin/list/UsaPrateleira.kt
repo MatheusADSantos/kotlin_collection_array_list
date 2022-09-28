@@ -5,8 +5,7 @@ fun main() {
     val porAutor = prateleira.organizarPorAutor()
     val porAnoDePublicacao = prateleira.organizarPorAnoDePublicacao()
 
-    // Vai imprimir duas listas iguais, pois ambos(porAutor e porAno...) estão apontando para o mesmo objeto ...
-    // Sendo assim, retornando uma lista ordenada por ano de pub
+    // Agora imprimirá dois objetos diferentes, por ser um List, não é mutável, cria-se novas instancias de objetos
     porAutor.imprimiListaComMarcadores()
     print("------")
     porAnoDePublicacao.imprimiListaComMarcadores()

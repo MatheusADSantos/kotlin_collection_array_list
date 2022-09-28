@@ -1,16 +1,15 @@
 package list
 
-fun MutableList<Livro?>.imprimiListaComMarcadores() {
-    val listaComMarcadores: String = this
-        .filterNotNull()
-        .joinToString(separator = "\n") {
-            "-> ${it?.titulo} de ${it?.autor}"
-        }
-    println("\n ### Lista de Livros ### \n${listaComMarcadores}")
-}
+//fun MutableList<Livro?>.imprimiListaComMarcadores() {
+//    val listaComMarcadores: String = this
+//        .filterNotNull()
+//        .joinToString(separator = "\n") {
+//            "-> ${it?.titulo} de ${it?.autor}"
+//        }
+//    println("\n ### Lista de Livros ### \n${listaComMarcadores}")
+//}
 
-@JvmName("imprimiListaComMarcadoresLivro")
-fun MutableList<Livro>.imprimiListaComMarcadores() {
+fun List<Livro>.imprimiListaComMarcadores() {
     val listaComMarcadores: String = this
         .joinToString(separator = "\n") {
             "-> ${it.titulo} de ${it.autor}"

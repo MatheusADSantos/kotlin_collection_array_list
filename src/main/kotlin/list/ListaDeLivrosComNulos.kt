@@ -1,5 +1,5 @@
 package list
 
 fun main() {
-    livrosComNulos.imprimiListaComMarcadores()
+//    livrosComNulos.imprimiListaComMarcadores()
 }
