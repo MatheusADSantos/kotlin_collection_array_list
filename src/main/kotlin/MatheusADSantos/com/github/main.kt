@@ -12,6 +12,7 @@ fun main() {
         7 to 20.0
     )
 
+    // Retornos...
     // getOrElse pede 2 parâmetros, uma chave e um lambda(retorno caso não tenha essa chave no map)
     val chave = 12
     val mensagem = pedidos.getOrElse(key = chave, defaultValue = {
@@ -35,6 +36,7 @@ fun main() {
     }
 
 
+
     // Filtrando...
     val pedidosMaior100 = pedidos.filter { (numero, valor) -> valor > 100 }
     println("\npedidosMaior100: $pedidosMaior100")
@@ -54,5 +56,22 @@ fun main() {
         numero % 2 == 0
     }
     println("pedidosPares: $pedidosPares")
+
+
+
+    // Somando e Subtraindo...
+    println("\nSomando\npedidos: $pedidos")
+    println(pedidos + mapOf(7 to 90.0, 8 to 20.0))
+    println("\nSubtraindo\npedidos: $pedidos")
+    println(pedidos - listOf(6, 5))
+
+    // Conseguimos remover pela chave ou valor especificamente...
+    println("\nRemovendo\npedidos: $pedidos")
+    pedidos.values.remove(150.0)
+    println("pedidos: $pedidos")
+    pedidos.keys.remove(2)
+    println("pedidos: $pedidos")
+    pedidos -= 1
+    print(pedidos)
 
 }
