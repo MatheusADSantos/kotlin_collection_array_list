@@ -21,6 +21,25 @@ fun main() {
 
 
 
+    // Para cada pedido, agrupo-o
+    val pedidosFreteGratisAgrupado = pedidos.groupBy { pedido -> pedido.valor > 50 }
+    println("\n\npedidosFreteGratisAgrupado: $pedidosFreteGratisAgrupado")
+    println("Pedidos com Frete Grátis(valor > 50): ${pedidosFreteGratisAgrupado[true]}")
+
+    val nomes = listOf("Alex", "Fran", "Gui", "Ana", "Paulo", "Maria", "Mario", "Gisele")
+    val agenda = nomes.groupBy { nome -> nome.first() }
+    println("\nagenda: $agenda")
+    println("agenda com letra A: ${agenda['A']}")
+
+
+    val pedidosAgrupados: Grouping<Pedido, Boolean> = pedidos.groupingBy { pedido ->
+        pedido.valor > 50.0
+    }
+    println(pedidosAgrupados.eachCount())
+
+
+
+
 }
 
 data class Pedido(
